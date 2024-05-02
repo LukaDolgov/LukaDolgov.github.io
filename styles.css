@@ -23,8 +23,6 @@ body {
   .chess-image-container {
     width: 320px; /* Adjust width as needed */
     height: 240px; /* Adjust height as needed */
-    background-image: url('LukaDolgov.github.io\Screenshot2024-05-02193402.png'); /* Specify the path to your image */
-     background-size: cover; /* This property ensures that the image covers the entire container */
-    background-position: center; 
+    
   }
   
