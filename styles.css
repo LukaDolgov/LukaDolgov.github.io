@@ -30,11 +30,6 @@ body {
     position: relative;
   }
   
-  .video-item video {
-    width: 50%;
-    height: 50%;
-  }
-  
   .caption {
     position: absolute;
     bottom: 10px;
