@@ -34,6 +34,7 @@ body {
     background-color: lightcoral;
     border-radius: 3px;
    border-style: solid;
+   width: 90%;
   }
   
   .video-item {
@@ -47,7 +48,7 @@ body {
     border-radius: 3px;
     border-style: solid;
     display: inline-block;
-    
+
 
   }
   .caption {
