@@ -50,4 +50,7 @@ body {
   }
   
 
-  
+  .chessimage {
+    margin-left: 30%;
+    background-color: black;
+  }
