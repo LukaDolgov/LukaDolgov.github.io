@@ -27,7 +27,7 @@ body {
   }
 
   .video-grid {
-    margin-left: 35%;
+    margin-left: 38%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -40,12 +40,12 @@ body {
   .caption {
     position: absolute;
     bottom: 10px;
-    left: 0;
+    left: 10px;
     width: 30%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 15%;
     padding: 5px;
   }
   
