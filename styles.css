@@ -32,12 +32,12 @@ body {
   #video-grid {
     padding-top: 50px;
     padding-right: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-left: 80px;
     background-color: lightcoral;
     border-radius: 3px;
    border-style: solid;
-   width: 1720px;
+   width: 1750px;
   }
   
   .video-item {
