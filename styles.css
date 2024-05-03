@@ -45,7 +45,7 @@ body {
     border-radius: 3px;
     border-style: solid;
     display: inline-block;
-    margin-right: 70%
+    margin-right: 70%;
 
   }
   .caption {
@@ -58,7 +58,7 @@ body {
   
 
   #chessimage {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
     background-color: black;
   }
