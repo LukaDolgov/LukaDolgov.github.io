@@ -50,10 +50,8 @@ body {
     display: inline-block;
   }
     .video-item video {
-     margin-left: 30%;
-     margin-top: 30%;
-     margin-right: 30%;
-     margin-bottom: 30%;
+     margin-left: 80px;
+     margin-top: 100px;
 
 
   }
