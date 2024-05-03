@@ -37,7 +37,7 @@ body {
     background-color: lightcoral;
     border-radius: 3px;
    border-style: solid;
-   width: 2600px;
+   width: 2400px;
   }
   
   .video-item {
@@ -45,16 +45,16 @@ body {
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    height: 600px;
-    width: 800px;
+    height: 500px;
+    width: 700px;
     background-color: aquamarine;
     border-radius: 3px;
     border-style: solid;
     display: inline-block;
   }
     .video-item video {
-     margin-left: 80px;
-     margin-top: 80px;
+     margin-left: 70px;
+     margin-top: 70px;
 
 
   }
