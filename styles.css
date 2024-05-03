@@ -16,14 +16,17 @@ body {
   }
 
   p {
+   margin-left: 30%;
+   margin-right: 30%;
    text-align: center;
-   padding-top: 50px;
+   padding-top: 30px;
    padding-right: 30px;
-   padding-bottom: 50px;
-   padding-left: 80px;
+   padding-bottom: 20px;
+   padding-left: 30px;
    background-color: bisque;
    border-radius: 3px;
    border-style: solid;
+   display: inline-block;
   }
 
   #video-grid {
@@ -51,7 +54,7 @@ body {
   }
     .video-item video {
      margin-left: 80px;
-     margin-top: 92px;
+     margin-top: 80px;
 
 
   }
