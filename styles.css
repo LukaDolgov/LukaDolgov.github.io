@@ -5,13 +5,13 @@ body {
   
   h1 {
     color: navy;
-    size: 20px;
+    font-size: 20px;
     text-align: center;
   }
 
   h2 {
     color: navy;
-    size: 18px;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -53,8 +53,8 @@ body {
     display: inline-block;
   }
     .video-item video {
-     margin-left: 70px;
-     margin-top: 70px;
+     margin-left: 40px;
+     margin-top: 40px;
 
 
   }
@@ -75,7 +75,7 @@ body {
 
   a {
     text-align: center;
-    size: 10px;
+    font-size: 10px;
   }
   a:link {
     color: red;
