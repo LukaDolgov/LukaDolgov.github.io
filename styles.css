@@ -27,7 +27,7 @@ body {
   }
 
   .video-grid {
-    margin-left: 38%;
+    margin-left: 20%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
