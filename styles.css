@@ -5,13 +5,13 @@ body {
   
   h1 {
     color: navy;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
   }
 
   h2 {
     color: navy;
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -73,9 +73,22 @@ body {
     background-color: black;
   }
 
+  #resumelink {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+   padding-top: 30px;
+   padding-right: 30px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   background-color: lightgray;
+   border-radius: 3px;
+   border-style: solid;
+   display: inline-block;
+  }
   a {
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
   }
   a:link {
     color: red;
