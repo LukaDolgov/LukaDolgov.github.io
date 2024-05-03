@@ -27,20 +27,18 @@ body {
   }
 
   .video-grid {
-    margin-left: 20%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color: lightcoral;
   }
   
   .video-item {
     position: relative;
-    margin-left: 10%;
   }
   
   .caption {
-    bottom: 10px;
-    left: 10px;
     width: 30%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
