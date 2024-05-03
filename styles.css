@@ -48,6 +48,12 @@ body {
     border-radius: 3px;
     border-style: solid;
     display: inline-block;
+  }
+    .video-item video {
+     margin-left: 30%;
+     margin-top: 30%;
+     margin-right: 30%;
+     margin-bottom: 30%;
 
 
   }
