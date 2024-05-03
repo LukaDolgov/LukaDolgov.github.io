@@ -26,7 +26,7 @@ body {
    border-style: solid;
   }
 
-  .video-grid {
+  #video-grid {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -34,9 +34,6 @@ body {
     background-color: lightcoral;
   }
   
-  .video-item {
-    position: relative;
-  }
   
   .caption {
     width: 30%;
@@ -47,7 +44,7 @@ body {
   }
   
 
-  .chessimage {
+  #chessimage {
     margin-left: 30%;
     background-color: black;
   }
