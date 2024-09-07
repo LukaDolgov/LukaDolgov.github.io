@@ -134,6 +134,14 @@ footer {
   height: auto; /* Maintain aspect ratio */
 }
 
+
+figcaption {
+  margin-top: 0.5rem; /* Space between image and caption */
+  font-style: italic; /* Caption text style */
+  color: #666; /* Caption text color */
+  text-align: center; /* Center caption text */
+}
+
 .description {
   flex: 2; /* Allows the description to take more space */
   padding: 1rem;
