@@ -75,10 +75,10 @@ nav {
 }
 
 .project-item img {
-  width: 100%; /* Fits the image within the project item */
-  height: auto; /* Maintains aspect ratio */
-  max-width: 500px; /* Optional: constrain maximum width if needed */
-  display: block; /* Remove extra space below the image */
+  width: 100%; /* Scale the image to fit the container width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Scale the image to fit within its container */
+  display: block; /* Remove any extra space below the image */
 }
 
 
