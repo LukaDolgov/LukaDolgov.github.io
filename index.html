@@ -1,37 +1,51 @@
 ﻿<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <meta charset="UTF-8">
-    </head>
- <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
 
-<h1>Luka Dolgov </h1>
-     <img src="IMG_6452.JPG" alt="Avatar" style="width:200px; border-radius: 50%; margin-left: 41%;">
-        <p> My name is Luka Dolgov and I study computer science and mathematics at Yale University. Some of my passions are in the field of AI, Robotics, and Website Development. 
-    For fun I often like to play my viola or play chess!
-        </p>
-    <h2> Projects: </h2>
-        
-    <div id="video-grid">
-                <div class="video-item">
-                    <div class="caption"> Kleanzy: A community clean-up app for those looking for community service opportunities locally or abroad. </div>
-                  <video autoplay muted loop width="640" height="480">
-                    <source src="CongressionalAppchallenge-better.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-                
-                <!-- Add more video items as needed -->
-     </div>
+    <section id="about" class="section about-section">
+        <h1>Hello, I'm [Your Name]</h1>
+        <p>I'm a software developer specializing in building modern and efficient applications. Below, you can explore some of my work and download my resume.</p>
+    </section>
 
-            <p style="margin-left: 40%"> Chess is another one of my hobbies </p>
-        <div id="chessimage">
-               <img src="Screenshot2024-05-02193402.png" alt="My Chess Skills" width="320" height="240">
-      </div>
-      <h2> Resume: </h2>
-      <div id="resumelink">
-      <a href="https://drive.google.com/file/d/1oil4iga8qNqmGr8YO-12TYHy0k9tWZMq/view?usp=sharing" style="text-align: center; size: 10px;"> Resume </a>
-      </div>
-    </body>
+    <section id="projects" class="section projects-section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-item">
+                <h3>Project One</h3>
+                <p>A description of the project...</p>
+                <a href="https://github.com/yourgithubusername/project1" target="_blank">GitHub Repo</a> | 
+                <a href="https://youtu.be/example_video" target="_blank">Demo Video</a>
+            </div>
+            <!-- Add more project items as needed -->
+        </div>
+    </section>
+
+    <section id="resume" class="section resume-section">
+        <h2>Resume</h2>
+        <p>Click the link below to download my resume:</p>
+        <a class="download-btn" href="resume.pdf" download>Download Resume (PDF)</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
