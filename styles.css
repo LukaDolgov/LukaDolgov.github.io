@@ -59,17 +59,28 @@ nav {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between items */
 }
 
 .project-item {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center contents horizontally */
+  justify-content: center; /* Center contents vertically if needed */
   background-color: #fff;
-  padding: 1.5rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
   border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.project-item img {
+  width: 100%; /* Fits the image within the project item */
+  height: auto; /* Maintains aspect ratio */
+  max-width: 500px; /* Optional: constrain maximum width if needed */
+  display: block; /* Remove extra space below the image */
+}
+
 
 .project-item h3 {
   margin-bottom: 1rem;
