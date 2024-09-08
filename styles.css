@@ -82,19 +82,24 @@ nav {
 }
 
 .project-content {
-  visibility: hidden; /* Hide content by default */
   opacity: 0;          /* Fully transparent */
   overflow: hidden; /* Hide overflow content */
   transition: all 0.5s ease; /* Smooth transition */
 }
 
 .project-item:hover .project-content {
-  visibility: visible; /* Make content visible on hover */
   opacity: 1;
   max-height: 500px; /* Expand height to show content */
   padding-top: 10px; /* Add padding on hover */
   transition: all 0.3s ease;
+  animation: fadeIn 5s;
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 .project-item img {
   width: 100%; /* Scale the image to fit the container width */
