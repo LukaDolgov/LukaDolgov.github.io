@@ -75,8 +75,11 @@ nav {
   transition: all 0.3s ease;
 }
 
+#pokerT {
+  height: 300px;
+}
+
 .project-title {
-  align-self: flex-start;
   font-size: 1.5rem;
   margin: 0;
   text-align: center;
