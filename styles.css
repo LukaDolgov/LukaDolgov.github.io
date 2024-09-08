@@ -74,6 +74,25 @@ nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.project-title {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.project-content {
+  opacity: 0; /* Hide content by default */
+  max-height: 0; /* Collapse content height */
+  overflow: hidden; /* Hide overflow content */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.project-item:hover .project-content {
+  opacity: 1; /* Make content visible on hover */
+  max-height: 500px; /* Expand height to show content */
+  padding-top: 10px; /* Add padding on hover */
+}
+
 .project-item img {
   width: 100%; /* Scale the image to fit the container width */
   height: auto; /* Maintain aspect ratio */
