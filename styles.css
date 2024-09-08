@@ -75,9 +75,6 @@ nav {
   transition: all 0.3s ease;
 }
 
-#pokerT {
-  height: 300px;
-}
 
 .project-title {
   font-size: 1.5rem;
@@ -93,7 +90,7 @@ nav {
 
 .project-item:hover .project-content {
   max-height: 500px; /* Expand height to show content */
-  padding-top: 20px; /* Add padding on hover */
+  padding-top: 10px; /* Add padding on hover */
   transition: all 0.3s ease;
   animation: fadeIn 1s forwards;
 }
