@@ -46,7 +46,7 @@ nav {
 }
 
 .about-section {
-  background-color: #fff;
+  background-color: #1f1b59;
 }
 
 .projects-section {
@@ -68,7 +68,8 @@ nav {
   flex-direction: column; /* Stack elements vertically */
   align-items: center; /* Center contents horizontally */
   justify-content: center; /* Center contents vertically if needed */
-  background-color: #fff;
+  background-color: #1f1b59;
+  color: white;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
