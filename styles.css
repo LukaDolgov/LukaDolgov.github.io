@@ -73,7 +73,6 @@ nav {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  height: 300px; /* Set a fixed height */
 }
 
 .project-title {
@@ -98,8 +97,10 @@ nav {
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% { opacity: 0;
+  position: absolute; }
+  100% { opacity: 1;
+  position: relative; }
 }
 
 
