@@ -82,14 +82,13 @@ nav {
 }
 
 .project-content {
-  opacity: 0; /* Hide content by default */
-  max-height: 0; /* Collapse content height */
+  visibility: hidden; /* Hide content by default */
   overflow: hidden; /* Hide overflow content */
   transition: all 0.3s ease; /* Smooth transition */
 }
 
 .project-item:hover .project-content {
-  opacity: 1; /* Make content visible on hover */
+  visibility: visible; /* Make content visible on hover */
   max-height: 500px; /* Expand height to show content */
   padding-top: 10px; /* Add padding on hover */
 }
