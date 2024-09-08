@@ -66,13 +66,14 @@ nav {
 .project-item {
   display: flex;
   flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center contents horizontally */
-  justify-content: center; /* Center contents vertically if needed */
+  /* align-items: center; /* Center contents horizontally */
+  /* justify-content: center; /* Center contents vertically if needed */
   background-color: #fff;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  height: 300px; /* Set a fixed height */
 }
 
 .project-title {
@@ -88,8 +89,8 @@ nav {
 }
 
 .project-item:hover .project-content {
-  max-height: 500px; /* Expand height to show content */
-  padding-top: 10px; /* Add padding on hover */
+  max-height: 300px; /* Expand height to show content */
+  padding-top: 20px; /* Add padding on hover */
   transition: all 0.3s ease;
   animation: fadeIn 1s forwards;
 }
