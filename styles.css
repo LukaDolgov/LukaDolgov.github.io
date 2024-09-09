@@ -74,7 +74,7 @@ nav {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  max-height: 500px;
+  overflow: hidden; /* Hide overflowing content */
 }
 
 
@@ -86,8 +86,13 @@ nav {
 
 .project-content {
   opacity: 0;          /* Fully transparent */
+  max-height: 0;
   overflow: hidden; /* Hide overflow content */
   transition: all 0.3s ease; /* Smooth transition */
+}
+
+.project-item:hover {
+  max-height: 500px;
 }
 
 .project-item:hover .project-content {
