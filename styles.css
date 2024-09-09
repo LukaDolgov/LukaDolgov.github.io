@@ -88,18 +88,19 @@ nav {
   opacity: 0;          /* Fully transparent */
   max-height: 0;
   overflow: hidden; /* Hide overflow content */
-  transition: all 0.3s ease; /* Smooth transition */
+  transition: all 0.5s ease; /* Smooth transition */
 }
 
 .project-item:hover {
   max-height: 500px;
+  transition: all 0.5 ease;
 }
 
 .project-item:hover .project-content {
   max-height: 500px; /* Expand height to show content */
   padding-top: 15px; /* Add padding on hover */
-  transition: all 0.3s ease;
-  animation: fadeIn 1s forwards;
+  transition: all 0.5s ease;
+  animation: fadeIn 1.5s forwards;
 }
 
 @keyframes fadeIn {
